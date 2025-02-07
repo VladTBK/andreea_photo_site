@@ -5,7 +5,7 @@ import { ArrowLeftCircle, ArrowRightCircle } from "lucide-react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import main_wedding from "/src/assets/wedding/main_wedding.jpg";
+import main_nunta from "/src/assets/nunta/main_nunta.jpg";
 import main_botez from "/src/assets/botez/main_botez.jpg";
 import main_cununie from "/src/assets/cununie/main_cununie.jpg";
 import main_majorat from "/src/assets/majorat/main_majorat.jpg";
@@ -27,10 +27,10 @@ interface GalleryItem {
 const portfolioItems: GalleryItem[] = [
   {
     id: 1,
-    image: main_wedding,
+    image: main_nunta,
     title: "Nuntă",
     description: "Povestea voastră, spusă prin fiecare fotografie",
-    path: "/wedding",
+    path: "/nunta",
   },
   {
     id: 2,
@@ -44,63 +44,63 @@ const portfolioItems: GalleryItem[] = [
     image: main_cununie,
     title: "Cununie civilă",
     description: "O poveste de iubire scrisă în imagini",
-    path: "/wedding",
+    path: "/cununie",
   },
   {
     id: 4,
     image: main_majorat,
     title: "Majorat",
     description: "Portrete care surprind esența personalității",
-    path: "/wedding",
+    path: "/majorat",
   },
   {
     id: 5,
     image: main_petrecere_aniversara,
     title: "Petrecere aniversară",
     description: "Petrecerea copilului, captată în momente de veselie",
-    path: "/wedding",
+    path: "/petrecere_aniversara",
   },
   {
     id: 6,
     image: main_maternitate,
     title: "Maternitate",
     description: "Primii pași ai unei vieți noi, surprinși în imagini",
-    path: "/wedding",
+    path: "/maternitate",
   },
   {
     id: 7,
     image: main_newborn,
     title: "Newborn",
     description: "Primile momente din viața copilasului tau",
-    path: "/wedding",
+    path: "/newborn",
   },
   {
     id: 8,
     image: main_smash_the_cake,
     title: "Smash the Cake",
     description: "Fotografii de familie care durează o viață",
-    path: "/wedding",
+    path: "/smash_the_cake",
   },
   {
     id: 9,
     image: main_save_the_date,
     title: "Save the Date",
     description: "Marchează ziua, pentru că va fi începutul unei povești",
-    path: "/wedding",
+    path: "/save_the_date",
   },
   {
     id: 10,
     image: main_businesss,
     title: "Business",
     description: "Imaginea de brand, un element cheie în marketing",
-    path: "/wedding",
+    path: "/business",
   },
   {
     id: 11,
     image: main_imobiliar,
     title: "Fotografie imobiliară",
     description: "Captează interesul potențialilor cumpărători",
-    path: "/wedding",
+    path: "/imobiliar",
   },
 ];
 const Portfolio: React.FC = () => {
