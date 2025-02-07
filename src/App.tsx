@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Pricing from "./components/Pricing";
 import Wedding from "./components/evenimente/Wedding";
+import Botez from "./components/evenimente/Botez";
 
 const HomePage: React.FC = () => {
   return (
@@ -28,6 +29,7 @@ const App: React.FC = () => {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/wedding" element={<Wedding />} />
+            <Route path="/botez" element={<Botez />} />
           </Routes>
         </main>
         <Footer />

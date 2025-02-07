@@ -37,7 +37,7 @@ const portfolioItems: GalleryItem[] = [
     image: main_botez,
     title: "Botez",
     description: "Un nou început, plin de zâmbete și emoție",
-    path: "/wedding",
+    path: "/botez",
   },
   {
     id: 3,
